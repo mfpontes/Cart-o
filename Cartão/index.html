@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Cartão</title>
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="content">
+            <div class="header">
+                <div class="box-img">
+                    <img src="/img/chip.png" alt="chip">
+                    <img src="/img/Mastercard-Logo.wine-removebg-preview.png" alt="mastercard">
+                </div>
+            </div>
+            <div class="footer">
+                <img src="/img/nubank-2021-logo-CF01982129-seeklogo.com.png" alt="nubank">
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="validar-cartao">
+      <input id="card-number" type="text" name="number" placeholder="Número do Cartão" required>
+      <input id="holder" type="text" placeholder="Titular do cartão" required>
+      <input id="date" type="text" name="date" placeholder="Validade" onfocus="(this.type = 'month')"required>
+      <input id="cvv" type="text" name="cvv" placeholder="CVV" onfocus="(this.type = 'number')" required>
+      <button><a href="#">Enviar</a></button>
+    </div>
+</body>
+</html>
